@@ -1,0 +1,274 @@
+
+.headerTop{
+    padding:30px 0 16px;
+    position: relative;
+}
+
+.bar-menu{
+    display:none;
+}
+.logo-img{
+    width:100%;
+}
+.site-header-responsive{
+    display:none;
+}
+
+.contact-head ul{
+    align-items: center;
+    display:flex;
+
+    li{
+        color: $gray;
+        font-size: 12px;
+        font-family: $font;
+        
+
+    }
+    i{
+        margin-right: 5px;
+        color:$secondary-color;
+    }
+
+    a{
+        color:$gray;
+    }
+}
+.contact-head ul .first{
+    margin-right: 25px;
+}
+ .second .i{
+    color:$secondary-color;
+    font-size: 16px;
+}
+ul.user-link{
+    li.myaccountnav{
+        height:15px;
+    }
+}
+ul.user-link >li{
+    font-size: 12px;
+    margin: 0 8px;
+    font-family: $font;
+
+}
+
+.myaccountnav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-link li .account-img{
+    color: $secondary-color;
+    font-size: 16px;
+    margin-right: 5px;
+    img{
+        width:100%;
+        height:100%;
+    }
+}
+
+.search-cart{
+    margin:18px 0 0 0;
+}
+.seacrh-warp{
+    width:93%;
+    margin-right:140px
+}
+.searchDiv .inputField{
+    position: relative;
+    width: 100%;
+}
+.searchDiv .search {
+    position: absolute;
+    left: 17px;
+    top: 14px;
+    width: 13px;
+    height: 13px;
+}
+.searchDiv input[type="text"] {
+    border:1px solid rgba(0,0,0,0.2);
+    color: #bdbdbd;
+    float: left;
+    font-size: 14px;
+    height: 43px;
+    padding: 13px 136px 13px 43px;
+    width: 100%;
+    left:0;
+}
+#searchResultDiv {
+    left: 0;
+    position: absolute;
+    top: 43px;
+    width: 100%;
+    z-index: 99;
+}
+.searchDiv input[type="submit"] {
+    background: $secondary-color;
+    border: medium none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    height: 43px;
+    padding: 0;
+    position: absolute;
+    right: 118px;
+    text-align: center;
+    width: 100px;
+}
+#cartCountTiles {
+    margin: 0 0 0 20px;
+    width: 50px;
+    height: 45px;
+    text-align: center;
+}
+.cartdiv {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    background: $secondary-color;
+    border-radius: 50%;
+    width: 100%;
+    right:40px;
+    height: 100%;
+}
+.cartdiv a {
+    height: 24px;
+    width: 22px;
+    margin-top: 12px;
+    font-size: 18px;
+   
+}
+.cartdiv  i{
+    color:#fff;
+    padding-top:13px;
+}
+.cartdiv span {
+    background: #613f99;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    height: 21px;
+    line-height: 21px;
+    position: absolute;
+    right: -13px;
+    text-align: center;
+    top: -10px;
+    width: 35px;
+}
+.cartdiv a .i{
+    padding-top: 11px;
+    font-size: 20px;
+}
+@media screen and (max-width: 1024px) {
+    
+    .searchDiv input[type="text"] {
+        margin-left:90px
+    }
+    .searchDiv .search {
+        position: absolute;
+        left: 108px;
+    }
+    
+
+}
+@media screen and (max-width: 768px) {
+   .site-header-responsive{
+       padding:30px 0 16px;
+       position:relative;
+       display:block;
+   } 
+   .headerTop{
+       display:none;
+   }
+   .header-responsive{
+       align-items: center;
+   }
+   .responsive-menu{
+       display:flex;
+       justify-content: center;
+   }
+   .bar-menu {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: $primary-color;
+    display: block;
+    position: absolute;
+    left: 14px;
+    top: 32%;
+    font-size:30px;
+    justify-content: center;
+    align-items: center;
+}
+a .bar-menu{
+    text-align: center;
+
+}
+.logo-images{
+    width: 100%;
+    margin-left: 65px;
+    a img{
+        width:100%;
+    }
+}
+.links{
+    width:50%;
+    margin-top: -10px;
+
+}
+
+.user-links{
+    display:flex;
+    justify-content: center;
+    // margin-right:-116px;
+}
+.myaccountnav{
+    margin-right: 37px;
+    font-size: 27px;  
+    color:$secondary-color;  
+   .account-img a{
+        color:$secondary-color;
+    }
+    
+}
+.myaccount{
+    margin-right: 37px;
+    font-size: 27px;  
+    color:$secondary-color;  
+   .account-img a{
+        color:$secondary-color;
+    }
+    
+
+}
+}
+@media screen and (max-width: 425px) {
+    .bar-menu{
+        font-size: 20px;
+        left: 14px;
+        top: 35%;
+    }
+    .logo-images{
+        margin-left:53px;
+    }
+    
+    .link{
+        width:50%;
+    }
+    .user-links{
+        margin-right:-40px;
+    }
+    .myaccount{
+        display:none;
+    }
+    .myaccountnav{
+        font-size: 25px;
+        margin-right: 32px;
+
+    }
+    
+
+}
