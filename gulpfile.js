@@ -35,7 +35,7 @@ var src = {
 var output = {
     js: "output/js",
     css: "output/css",
-    img: "output/img",
+    img: "output/images",
     html: "output/**/*.html",
     min_css: "app.min.css",
     min_js: "app.min.js",
@@ -121,7 +121,7 @@ gulp.task('img', function() {
         .pipe(plumber({
             errorHandler: onError
         }))
-        .pipe(imagemin())
+        // .pipe(imagemin())
         .pipe(gulp.dest(output.img));
 
 });
@@ -161,4 +161,4 @@ gulp.task('watches', function() {
 // Task: Default
 // --------------------------------------------------------------------
 
-gulp.task('default', ['bower','watches', 'sass', 'js',  'nunjucks']);
+gulp.task('default', ['bower','watches', 'sass', 'js',  'nunjucks','img']);

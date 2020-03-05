@@ -6,15 +6,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>multivendor frontend</title>
-    <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     
@@ -26,7 +24,485 @@
 </head>
 <body >
 
-<div class="uk-offcanvas-content" style="background: #f6f6f6">
+
+    <header class="site-header">
+    <div class="container-fluid main-heading">
+        <div class="headerTop main-header fullwidth">
+            <div class=" row">
+                <div class="col-md-3">
+                    <div class="logo-img">
+                        <a href="http://www.sastodeal.com/" class="logo floatleft">
+                            <img src="images/logo.png" alt="logo" title="Sastodeal">
+                        </a> 
+                    </div>
+                </div>
+                <div class="col-md-9">
+                        <div class="contact-head">
+                        <div class="row check-head">
+                            <div class="col-md-6 head-contact">
+                                <ul class="check-content floatleft">
+                                    <li class="first">
+                                        <i class=" fas fa-phone"></i>Call Us- 
+                                        <a href="tel- 01-597-0000">  01-597-0000
+                                    </li>
+                                    <li class="first">
+                                         Connet With Us-
+                                        <a href="https://www.facebook.com/sastodeal" class="social-icon">
+                                        <i class="fab fa-facebook"></i></a>
+                                        <a href="http://www.instagram.com/sastodeal" class="social-icon">
+                                        <i class="fab fa-instagram"></i></a>
+                                    </li>
+                                </ul>
+                             </div>
+                            <div class="col-md-6 col-ms-12 users-link ">
+                                <ul class=" user-link ">
+                                    <li class="myaccountnav">
+                                        <div class="account-img">
+                                        <i class="fas fa-user"></i>
+                                        </div>
+                                        <a href="" id="LoginBtn" class="">
+                                        <i class=""></i>LOGIN/</a>
+                                        <a href="" id="RegisterBtn">REGISTER</a>
+                                    <li>
+                                    <li class="myaccountnav">
+                                        <div class="account-img">
+                                        <i class="fas fa-heart"></i>
+                                        </div>
+                                        <a href="">WISHLIST</a>
+                                    </li>
+                                    <li class="myaccountnav">
+                                        <div class="account-img">
+                                            <i class="fab fa-first-order-alt"></i>                     
+                                    </div>
+                                        <a href="/sastodeal/trackOrder">TRACK ORDER</a>
+                                    </li>
+                                </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="row ">  
+                                <div class="col-md-12"> 
+                                    <ul class="fullwidth search-cart">
+                                        <li class="searchToggle fleft spiritImg"></li>
+                                        <li class="seacrh-warp floatleft">
+                                            <div class="searchDiv">
+                                                <form id="sastodeal_search" name="sastodeal_search" method="get" 
+                                                action="https://www.sastodeal.com/search.html">
+                                                    <div class="inputField">
+                                                        <i class=" search fas fa-search"></i>
+                                                        <input type="text" autocomplete="off" placeholder="Find Products,Categories...." id="searchkey" name="q" value="" class="placeholder">
+                                                        <div id="searchResultDiv"></div>
+                                                    </div>
+                                                    <input type="submit" value="SEARCH">
+                                                </form>
+
+                                            </div>
+                                        </li>
+                                        <li id="cartCountTiles"><div class="cartdiv shopcartlink" id="cartCount">
+                                            <a class="cart-icon spiritImg" href="">
+                                            <span>0</span>
+                                            <i class=" fas fa-cart-plus"></i>
+                                            </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div> 
+                            </div> 
+                        </div>
+                    </div>  
+                    
+                </div>
+            </div>
+        </div>  
+    </div>
+</header>
+
+    
+        <div class="site-header-responsive">
+            <div class=" row header-responsive">
+                <div class="col-ms-3 link">
+                    <div class="responsive-menu">
+                        <a href="" class="bar-menu"><i class="fas fa-bars"></i></a>
+                            <div class="logo-images">
+                                <a href="http://www.sastodeal.com/" class="logo floatleft">
+                                    <img src="images/logo.png" alt="logo" title="Sastodeal">
+                                </a> 
+                            </div>
+                    </div>
+                </div>
+                <div class="col-ms-9 links">
+                    <ul class=" user-links">
+                        <li class="myaccountnav">
+                            <div class="account-img">
+
+                        <a href=""><i class=" search fas fa-search"></i></a>
+                        </div>
+                        </li>
+                        <li class="myaccountnav">
+                            <div class="account-img">
+                                <a href=""><i class=" fas fa-cart-plus"></i></a>
+                                    
+                                    </div>
+                                </li>
+
+                                    <li class="myaccountnav">
+                                        <div class="account-img">
+                                            <a href=""><i class="fas fa-user"></i></a>
+
+                                                </div>
+                                            </li>
+                                        <li class="myaccount">
+                                            <div class="account-img">
+                                            <a href=""><i class="fas fa-heart"></i>
+                                            </a></div>
+                                        </li>
+                                        <li class="myaccount">
+                                            <div class="account-img">
+                                            <a href=""> <i class="fab fa-first-order-alt"></i></a>                 
+                                            </div>
+                                        </li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    
+                </div>
+            </div>
+        </div>  
+   
+    <div class="bx-wrapper">
+    <div class="container-fluid  padding-section">
+        
+          <div class="work-slidebar">   
+        <div class="work-slidebar-box">
+            <div class="owl-slider">
+              <div id="carousel" class="owl-carousel">
+        
+                <div class="work-slidebar-boxs">
+                  <img class="work-slidebar-boxs-pic"
+                    src="images/banner.jpg">
+
+                </div>
+        
+                <div class="work-slidebar-boxs">
+                  <img class="work-slidebar-boxs-pic"
+                    src="images/banner1.png">
+                 
+                </div>
+        
+        
+                <div class="work-slidebar-boxs">
+                  <img class="work-slidebar-boxs-pic"
+                    src="images/banner2.png">
+                </div>
+              
+        
+              </div>
+        
+            </div>
+          </div>
+        
+        </div>
+
+    </div>
+
+    <div class="bx-wrapper">
+    <div class="container-fluid">
+        
+     <div class="work-slidebar">   
+        <div class="work-slidebar-box">
+            <div class="owl-slider">
+              <div id="carous" class="owl-carousel">
+        
+                <div class="work-slidebar-boxs">
+                  <img class="work-slidebar-boxs-pic"
+                    src="images/home.png">
+                </div>
+        
+                <div class="work-slidebar-boxs">
+                  <img class="work-slidebar-boxs-pic"
+                    src="images/home.png">
+                </div>
+                </div>
+        
+            </div>
+         </div>
+         </div>
+        
+    </div>
+
+    </div>
+    
+ 
+    <div class="bx-wrapper">
+    <div class="container-fluid">
+        
+     <div class="work-slidebar">   
+        <div class="work-slidebar-box">
+            <div class="owl-slider">
+              <div id="carous" class="owl-carousel">
+        
+                <div class="work-slidebar-boxs">
+                  <img class="work-slidebar-boxs-pic"
+                    src="images/fashion.jpg">
+                </div>
+        
+                <div class="work-slidebar-boxs">
+                  <img class="work-slidebar-boxs-pic"
+                    src="images/fashion.jpg">
+                </div>
+                </div>
+        
+            </div>
+         </div>
+         </div>
+        
+    </div>
+
+    </div>
+    
+
+    <div class="bx-wrapper">
+    <div class="container-fluid">
+        
+     <div class="work-slidebar">   
+        <div class="work-slidebar-box">
+            <div class="owl-slider">
+              <div id="carous" class="owl-carousel">
+        
+                <div class="work-slidebar-boxs">
+                  <img class="work-slidebar-boxs-pic"
+                    src="images/electronic.jpg">
+                </div>
+        
+                <div class="work-slidebar-boxs">
+                  <img class="work-slidebar-boxs-pic"
+                    src="images/electronic.jpg">
+                </div>
+                </div>
+        
+            </div>
+         </div>
+         </div>
+        
+    </div>
+
+    </div>
+    
+ 
+    <div class="bx-wrapper">
+    <div class="container-fluid">
+        
+     <div class="work-slidebar">   
+        <div class="work-slidebar-box">
+            <div class="owl-slider">
+              <div id="carous" class="owl-carousel">
+        
+                <div class="work-slidebar-boxs">
+                  <img class="work-slidebar-boxs-pic"
+                    src="images/kids.png">
+                </div>
+        
+                <div class="work-slidebar-boxs">
+                  <img class="work-slidebar-boxs-pic"
+                    src="images/kids.png">
+                </div>
+                </div>
+        
+            </div>
+         </div>
+         </div>
+        
+    </div>
+
+    </div>
+    
+
+    <footer class="footer-section">
+    <div class="container-fluid">
+        <div class="footer-wrapper">
+                <div class="row">
+                    <div class="col-md-3 col-ms-12 footer-work-icons">
+                        <ul class="cust-link">
+                            <li>
+                                <a class="trackOrder" href="/sastodeal/trackOrder">
+                                    <div class="track-icon">
+                                    <i class=" marked fas fa-map-marked-alt"></i>                                     </div>
+                                    <h2>Track Your Order</h2>
+                                    <p>Follow your order as it makes its way through time and space unto your hands</p>
+                                </a>                           
+                             </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-ms-12 footer-work-icons">
+                    <ul class="cust-link">
+                            <li>
+                                <a class="trackOrder" href="/sastodeal/trackOrder">
+                                    <div class="track-icon">
+                                        <i class=" marked fas fa-shipping-fast"></i>
+                                     </div>
+                                    <h2>SD Express</h2>
+                                    <p>Bolt your order!</p>
+                                </a>                           
+                             </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-ms-12 footer-work-icons">
+                    <ul class="cust-link">
+                            <li>
+                                <a class="trackOrder" href="/sastodeal/trackOrder">
+                                    <div class="track-icon">
+                                        <i  class=" marked fas fa-user-tie"></i>    
+                                    </div>
+                                    <h2>Excellect Customer Services</h2>
+                                    <p>How can I be of assistance?</p>
+                                </a>                           
+                             </li>
+                        </ul>
+                    </div>
+                    
+                            <div class="col-md-3 col-ms-12 footer-work-icons">
+                        <ul class=" cust-link"> 
+                             <li>
+                                <a class="trackOrder" href="/sastodeal/trackOrder">
+                                    <div class="track-icon">
+                                        <i class=" marked fas fa-mobile-alt"></i>
+                                     </div>
+                                    <h2>Download the App</h2>
+                                    <p>For quicker and quality experience while on your mobile device. Available for 
+                                    both iOS and Andriod.</p>
+                                </a>                           
+                             </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="container-fluid">
+         <div class="footer-wrapper">
+            <div class="row">
+                <div class="col-md-2 ">
+                    <div class="footer-menu-heading">
+                         <h2>About Us</h2>
+                    </div>
+                    <div class="footer-menu">
+                         <ul class="expandible">
+                            <li><a href="">About Sastodeal</a></li>
+                            <li><a href="">Site-Map</a></li>
+                            <li><a href="">SD Stories</a></li>
+                            <li><a href="">Awards & Recognition</a></li>
+                            <li><a href="">Campaigins & Event</a></li>
+
+                         </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                <div class="footer-menu-heading">
+                         <h2>Help</h2>
+                    </div>
+                    <div class="footer-menu">
+                         <ul class="expandible">
+                            <li><a href="">Delivery Locations</a></li>
+                            <li><a href="">Payment Method</a></li>
+                            <li><a href="">FAQs</a></li>
+                            <li><a href="">Returns & Exchange Policy</a></li>
+
+                         </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer-menu-heading">
+                         <h2>Work With Us</h2>
+                    </div>
+                    <div class="footer-menu">
+                         <ul class="expandible">
+                            <li><a href="">Feature your<p> business</p></a></li>
+                            <li><a href="">Why work with us</a></li>
+                         </ul>
+                    </div>
+                </div>
+                 <div class="col-md-4 email-search">
+                    <div class="footer-menu-heading">
+                         <h2>Sign Up Our Newsletter</h2>
+                    </div>
+                    <div class="footer-menu">
+                         <ul class="expandible">
+                            <li><a href="">No junk. Just exclusive offer and <p>latest trends</p></a></li>
+                                        <li class="seacrh-warp">
+                                            <div class="searchDiv footerEmail">
+                                                <form id="sastodeal_search" name="sastodeal_search"  
+                                                action="https://www.sastodeal.com/search.html">
+                                                    <div class="inputField inputEmail">
+                                                        <input type="text" autocomplete="off" placeholder="Enter your email here.." id="searchkey" name="q" value="" class="placeholder">
+                                                        <div id="searchResultDiv"></div>
+                                                    </div>
+                                                    <div class="submit">
+                                                        <input type="submit" value="Submit">
+                                                    </div>
+                                                </form>
+
+                                            </div>
+                                        </li>
+                         </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                <div class="footer-menu-heading1">
+                         <h2>Contact With </h2>
+                         <p>Us</p>
+                    </div>
+                    <div class="footer-menu1">
+                              <a href="https://www.facebook.com/sastodeal" class="social-icon">
+                                <i class=" icons fab fa-facebook"></i></a>
+                                <a href="http://www.instagram.com/sastodeal" class="social-icon">
+                                <i class=" icons fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            
+        <div>
+    </div>
+    <div class="container-fluid">
+         <div class="footer-wrapper">
+            <div class="row footer-bottom">
+                <div class="col-md-12">
+                    <ul class="footer-cout ">
+                        <div class="footer-img"><li>
+                            <img data-cfsrc="https://www.sastodeal.com/0/media/css/frontend/images/footer-banner.jpg" 
+                            alt="" src="https://www.sastodeal.com/0/media/css/frontend/images/footer-banner.jpg">
+
+                        </li>
+                        </div>
+                        <div class="footer-heading">
+                            <li>
+                                <h2>Online Shopping Nepal</h2>
+                            </li>
+                        </div>
+                        <div class="footer-online-desc">
+                            <p>Sasto Deal is one of Nepal's biggest online shopping website. With internet users on the high rise, 
+                            Nepal is moving towards a digital revolution. Shoppers no longer have to wait in traffic, bargain for 
+                            discount and spend hours looking for the products and services that they want. All it takes is a few 
+                            clicks and a few seconds to locate the product and to place order(s) at Sasto Deal. Home deliveries are
+                             mostly free inside Kathmandu valley and a small surcharge is added for orders outside valley. 
+                             Returns and exchanges are guaranteed within the specified time period.</p>
+                             <p>We find it enthralling to see shoppers from every nook and corner of 
+                             Nepal placing their orders at Sasto Deal. Meanwhile, savvy business owners have found it exceedingly easy to feature their 
+                             products on our website. At absolutely zero marketing cost, businesses can reach millions of customers. 
+                             That's the power of ecommerce. And we find it exhilarating to be leading the industry.</p>
+                             <p>We're also pleased to announce, we have extended our network for book readers and travel enthusiasts. 
+                             Follow Sasto Book.<br> Happy shopping! ─ Team Sasto Deal</p>
+                             <p>If you have any queries, please reach out to us at:info@sastodeal.com</p>
+                        </div>
+                        
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 
@@ -34,18 +510,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
-    
-
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
-
-
-<!-- UIkit JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit-icons.min.js"></script>
 
 
 
