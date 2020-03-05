@@ -1,0 +1,69 @@
+
+// for all current prices
+.price-current{
+    color:$secondary-color;
+    font-size: $round-font-image-price;
+    
+}
+
+// for all before prices
+.price-before{
+    color:$gray-light;
+    text-decoration: line-through;
+    font-size: $round-font-image-MRP;
+    
+    
+}
+
+// for all discount percent
+.price-disPercent{
+    color:$primary-color;
+    font-size: $round-font-image-MRP;
+   
+}
+
+// for all titles
+.products-title{
+    color:$primary-color;
+    font-size: $round-font-title;
+
+   
+    margin-bottom: 32px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 0 4px;
+    letter-spacing: 1px;
+
+
+&::after{
+  
+    background-color: $primary-color;
+    content: ' ';
+    height: 2px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+
+}
+}
+
+
+
+.list-title{
+    font-weight: 700;
+}
+
+
+.close{
+    cursor:pointer;
+}
+
+@media only screen and (max-width: 426px){
+    .products-title{
+        margin: auto !important;
+        margin-bottom: 22px !important;
+    }
+}

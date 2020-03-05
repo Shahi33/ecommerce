@@ -1,0 +1,42 @@
+.owl-carousel .owl-nav.disabled{
+    display: block !important;
+}
+
+.container, .ad{
+    max-width: 1300px;
+    padding: 0px !important;
+}
+.row{
+    margin:0 0px;
+}
+.col-lg-*,.col-md-*,.col-lg-8 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+a{
+    color: $gray-darker !important;
+    padding:0px !important;
+    &:hover{
+        color: $primary-color !important;
+        text-decoration: none;
+     
+    }
+}
+
+
+.pre, .nex{
+
+    border: 2px solid $primary-color;
+    border-radius: 50%;
+    padding: 0px 8px;
+    color: $primary-color;
+}
+
+
+
+
+ul{
+    list-style-type:none;
+    padding:0px;
+}
