@@ -1,4 +1,4 @@
-$(".fullwith-banner").owlCarousel({
+$(".fullwidth-banner").owlCarousel({
   autoplay: true,
   lazyLoad: true,
   loop: true,
@@ -44,11 +44,11 @@ $('.owl-carousel').owlCarousel({
           items:5
       }
     }
-  })
+  });
 
   $('.carousel').carousel({
     interval: 2000
-  })
+  });
   
   
 $("#carousel").owlCarousel({

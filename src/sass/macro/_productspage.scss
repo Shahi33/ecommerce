@@ -1,0 +1,27 @@
+
+.productspage{
+    height: 500px;
+    border: 2px solid black;
+
+    &-image{ 
+        border-style: solid;
+        position: relative;
+        height: 100px;
+        img{
+            object-fit: contain;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+        }
+    }
+
+    &-details{
+
+    }
+
+    &-buy{
+
+    }
+
+}

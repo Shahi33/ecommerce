@@ -40,3 +40,17 @@ ul{
     list-style-type:none;
     padding:0px;
 }
+.active .products-title {
+    &::after{
+    
+        background-color: $primary-color;
+        content: ' ';
+        height: 2px;
+        width: 100%;
+        display: block;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+
+    }
+}
