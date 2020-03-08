@@ -31,7 +31,6 @@
     }
     i{
         margin-right: 5px;
-        color:$secondary-color;
     }
 
     a{
@@ -249,7 +248,11 @@ a .bar-menu{
 
 }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
+
+    .logo-img-txt{
+        font-size: 20px;
+    }
     .bar-menu{
         font-size: 20px;
         left: 14px;
@@ -262,9 +265,7 @@ a .bar-menu{
     .link{
         width:50%;
     }
-    .user-links{
-        margin-right:-40px;
-    }
+
     .myaccount{
         display:none;
     }

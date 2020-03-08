@@ -1,4 +1,6 @@
-
+.work-slidebar{
+  margin-bottom: 30px;
+}
 
 .work-slidebar-box{
     // padding-top:50px;
@@ -148,11 +150,7 @@
         color: #f89e31 !important;
         padding: 12px 12px !important;
     }
-    span {
-        font-size: 70px;    
-        position: relative;
-        top: -5px;
-    }
+
     .owl-nav button:focus {
         outline: none;
     }

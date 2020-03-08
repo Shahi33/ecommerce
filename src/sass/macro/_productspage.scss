@@ -1,12 +1,13 @@
 
 .productspage{
-    height: 500px;
+   
     border: 2px solid black;
 
     &-image{ 
+        height: 500px;
         border-style: solid;
         position: relative;
-        height: 100px;
+        overflow: hidden;
         img{
             object-fit: contain;
             position: absolute;
@@ -17,11 +18,17 @@
     }
 
     &-details{
-
+        border-style: solid; 
+        height: 500px;
     }
 
     &-buy{
 
     }
 
+}
+
+.productspage-reviewdiv{
+    display: flex;
+    justify-content: space-between;
 }
