@@ -42,7 +42,7 @@ $('.owl-carousel').owlCarousel({
       },
       1200:{
           items:5
-      }
+      },
     }
   });
 
