@@ -15,6 +15,7 @@
 
     }
     &-div{
+        
         height: 305px;
         width:33%;
         padding-left: 0px;
@@ -26,13 +27,27 @@
         padding-left: 0px;
         padding-right: 0px;
         text-align: center;
-        & a:hover{
-            font-weight:500;
+        
+        & a{ 
+            color: black;
+            & :hover{
+                color: $primary-color;
+                font-weight:500;
         }
+    }
     }
    
 }
 
+.ad-1st-div-women , .ad-1st-div-auto{
+    & ul{
+    list-style: none;
+    padding: 0px;
+    }
+    & a{
+        text-decoration: none;
+    }
+}
 
 .ad-1st-div-women::after{
     background-color: $gray-lighter;
@@ -42,7 +57,7 @@
     display: block;
     position: absolute;
     top: 10%;
-    right: 50%;
+    right: 52%;
 }
 
 

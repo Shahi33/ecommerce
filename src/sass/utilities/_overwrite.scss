@@ -8,32 +8,20 @@
 }
 
 
-a{
-    color: $gray-dark ;
-    padding:0px ;
-    &:hover{
-        color: $primary-color ;
-        text-decoration: none;
-     
-    }
-}
 
 
-.pre, .nex{
+.pr, .nex{
 
     border: 2px solid $primary-color;
     border-radius: 50%;
     padding: 0px 8px;
-    color: $primary-color;
+    background-color: $primary-color;
+    color: white;
 }
 
 
 
 
-ul{
-    list-style-type:none;
-    padding:0px;
-}
 .nav-pills .nav-link{
     background-color: white !important;
 }

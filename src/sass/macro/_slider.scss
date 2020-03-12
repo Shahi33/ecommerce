@@ -158,15 +158,19 @@
       border:2px solid $primary-color;
       border-radius: 50%;
       padding:0px 8px;
-      color:$primary-color;
+      background-color: $primary-color;
+      color: white;
       position: absolute;
       top:43% !important;
   
   }
   .next{
-      right:0;
+      right:25px;
       position: absolute;
   
+  }
+  .pre{
+    left: 25px;
   }
     @media screen and (max-width: 768px) {
       .work-slidebar-boxs{
