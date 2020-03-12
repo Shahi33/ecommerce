@@ -42,13 +42,13 @@ $('.owl-carousel').owlCarousel({
       },
       1200:{
           items:5
-      }
+      },
     }
-  })
+  });
 
   $('.carousel').carousel({
     interval: 2000
-  })
+  });
   
   
 $("#carousel").owlCarousel({
