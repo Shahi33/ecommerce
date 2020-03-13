@@ -1,3 +1,109 @@
+
+
+.reglog{
+    margin-bottom: 20px;
+}
+
+
+.register-inners{
+    border:1px solid #bbb;
+    border-radius: 0 0 10px 10px;
+    margin:0 auto;
+    width:100%;
+    padding:10px 30px;
+}
+.register-heading1{
+    background-color:rgba(55, 0, 115, 1);
+
+    p{
+        font-size: 14px;
+        color:#fff;
+        line-height: 56px;
+        font-family: $font;
+        margin-left: 85px;
+
+    }
+    a{
+        color:#fff;
+        text-decoration: underline;
+        margin-left: 16px;
+        margin-right: 0;
+
+    }
+    .close{
+        top:19px;
+        right:0;
+        font-size: 30px;
+        color:#fff;
+        i{
+            font-weight: 600;
+        }
+    }
+
+}
+.reg-gender-button{
+    font-size:14px;
+    font-family: $font;
+    margin:15px 0 6px 0;
+    .checkbox-input{
+        left:0;
+        right:0;
+        margin-left: 15px;
+    
+
+    }
+    .checkbox-label{
+        margin-left: 5px;
+    }
+}
+.flogin{
+    margin-left: -15px;
+}
+.login-btn, .register-btn{
+    background-color: #370073;
+    color: #fff;
+    padding: 8px 36px;
+    margin-top: 5px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+@media screen and (max-width: 1024px) {
+    .register-heading1 p{
+        margin-left: 0;
+    }
+    
+}
+//@media screen and (max-width: 1024px) {
+//    .register-inners{
+//        width:100%;
+//    }
+//
+//}
+@media screen and (max-width: 427px) {
+    .loginpage{
+        width:90%;
+    }
+    .register-inners{
+        width:90%;
+        padding:15px 0;
+    }
+    .register-heading1 p{
+        margin-left: 0;
+    }
+    .register-heading1{
+        display:none;
+    }
+    .form-inner .login-btn{
+        padding:8px 8px;
+    }
+
+}
+
+
+//login
 .loginpage{
     width:100%;
     margin:0 auto;
@@ -87,7 +193,7 @@
     font-family: $font;
     font-weight: 500;
 
-    
+
 }
 .forget-password{
     font-size: 14px;
@@ -103,7 +209,7 @@
     margin-bottom: 20px;
     font-size: 14px;
     font-family: $font;
-    
+
 }
 .login-inner::after{
     background: #c2057D;
@@ -179,53 +285,53 @@
 @media screen and (max-width: 1025px) {
     .login-socialsite {
         height:200px;
-       
-     .facebook {
-         left:17px;
-     }
-     .google{
-         right:9px;
-     }
+
+        .facebook {
+            left:17px;
+        }
+        .google{
+            right:9px;
+        }
     }
 }
 @media screen and (max-width: 769px) {
-   .loginpage{
-       width:90%;
-   }
-   .login-inners{
-       width:90%;
-   }
-   .login-inner {
-       border-bottom:1px solid rgba(0, 0, 0, 0.1);
-       border-right:none;
-   }
-   .login-inner::after{
-    background: #c2057D;
-    border-radius: 50%;
-    content: "OR";
-    font-weight: 600;
-    height: 30px;
-    font-size: 13px;
-    color: #fff;
-    line-height: 30px;
-    margin: -15px auto 0;
-    position: absolute;
-    text-align: center;
-    top: 50%;
+    .loginpage{
+        width:90%;
+    }
+    .login-inners{
+        width:90%;
+    }
+    .login-inner {
+        border-bottom:1px solid rgba(0, 0, 0, 0.1);
+        border-right:none;
+    }
+    .login-inner::after{
+        background: #c2057D;
+        border-radius: 50%;
+        content: "OR";
+        font-weight: 600;
+        height: 30px;
+        font-size: 13px;
+        color: #fff;
+        line-height: 30px;
+        margin: -15px auto 0;
+        position: absolute;
+        text-align: center;
+        top: 50%;
 
-   }
-   
+    }
+
     .login-socialsite {
         height:200px;
         p{
             font-size: 16px;
         }
-     .facebook {
-         left:150px;
-     }
-     .google{
-         right:150px;
-     }
+        .facebook {
+            left:150px;
+        }
+        .google{
+            right:150px;
+        }
     }
     .forget-password {
         margin-bottom: 10px;
@@ -241,33 +347,50 @@
     }
 
     .login-socialsite {
-       
-     .facebook {
-         left:40px;
-     }
-     .google{
-         right:40px;
-     }
+
+        .facebook {
+            left:40px;
+        }
+        .google{
+            right:40px;
+        }
     }
     .loginpage-heading1 .close{
         top:-52px;
     }
-    
+
 
 }
 @media screen and (max-width: 327px) {
     .login-socialsite {
 
-    .google{
-        right:0;
+        .google{
+            right:0;
 
+        }
+        .facebook{
+            left:0;
+        }
     }
-    .facebook{
-        left:0;
+    .loginpage-heading1 .close{
+        top:-102px;
     }
-}
-.loginpage-heading1 .close{
-    top:-102px;
+
 }
 
+@media screen and (max-width: 769px) {
+    .lin{
+        margin-bottom: 20px;
+    }
+    .register-inners{
+        width: 90%;
+    }
+
+}
+
+
+@media screen and (max-width: 426px) {
+    .register-inner, .login-form, .register-btn{
+        margin: 0 20px;
+    }
 }
