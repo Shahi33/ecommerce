@@ -1,7 +1,13 @@
+.site-header{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
 .logo-img-txt{
     color: $primary-color;
     cursor: pointer;
-
+    &:hover {
+        text-decoration: none;
+    }
 }
 .headerTop{
     padding:30px 0 16px;
