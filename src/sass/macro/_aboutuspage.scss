@@ -1,0 +1,24 @@
+.innerpage-title{
+    text-align: center;
+    color:#9c9c9c;
+    font-size: 16px;
+    font-family: $font;
+    font-weight: 500;
+   
+}
+.innerpage-content{
+    p{
+        text-align: center;
+        font-family: $font;
+        font-size: 16px;
+        color:#9c9c9c;
+        line-height: 28px;
+    }
+}
+.hr-style {
+    height: 10px;
+    width: 3%;
+    padding-top: 30px;
+    border-top: 4px solid #868686;
+    border-radius: 3px;
+}
