@@ -1,4 +1,6 @@
-
+.work-slidebar{
+  margin-bottom: 30px;
+}
 
 .work-slidebar-box{
     // padding-top:50px;
@@ -148,11 +150,7 @@
         color: #f89e31 !important;
         padding: 12px 12px !important;
     }
-    span {
-        font-size: 70px;    
-        position: relative;
-        top: -5px;
-    }
+
     .owl-nav button:focus {
         outline: none;
     }
@@ -160,15 +158,19 @@
       border:2px solid $primary-color;
       border-radius: 50%;
       padding:0px 8px;
-      color:$primary-color;
+      background-color: $primary-color;
+      color: white;
       position: absolute;
       top:43% !important;
   
   }
   .next{
-      right:0;
+      right:25px;
       position: absolute;
   
+  }
+  .pre{
+    left: 25px;
   }
     @media screen and (max-width: 768px) {
       .work-slidebar-boxs{

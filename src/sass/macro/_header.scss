@@ -1,4 +1,8 @@
+.logo-img-txt{
+    color: $primary-color;
+    cursor: pointer;
 
+}
 .headerTop{
     padding:30px 0 16px;
     position: relative;
@@ -15,10 +19,13 @@
 }
 
 .contact-head ul{
+    padding: 0px;
+
     align-items: center;
     display:flex;
 
     li{
+        list-style: none;
         color: $gray;
         font-size: 12px;
         font-family: $font;
@@ -27,7 +34,6 @@
     }
     i{
         margin-right: 5px;
-        color:$secondary-color;
     }
 
     a{
@@ -245,7 +251,11 @@ a .bar-menu{
 
 }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
+
+    .logo-img-txt{
+        font-size: 20px;
+    }
     .bar-menu{
         font-size: 20px;
         left: 14px;
@@ -258,9 +268,7 @@ a .bar-menu{
     .link{
         width:50%;
     }
-    .user-links{
-        margin-right:-40px;
-    }
+
     .myaccount{
         display:none;
     }
