@@ -1,0 +1,246 @@
+
+.productspage{
+
+    margin-bottom: 20px;
+
+    &-image{ 
+        height: 474px;
+        // border-style: solid;
+        position: relative;
+        overflow: hidden;
+        img{
+            object-fit: contain;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+        }
+    }
+
+    &-details{
+        // border-style: solid; 
+        height: 476px;
+    }
+
+    &-buy{
+       border: 1px solid $gray-light;
+    }
+
+}
+
+.productspage-reviewdiv{
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $gray-dark;
+    border-top: 1px solid $gray-light;
+    border-bottom: 1px solid $gray-light;
+    padding: 16px 0;
+
+    &-review{
+ 
+        border-right: 1px solid $gray-light;
+        display: flex;
+
+        &-rating{
+            padding-right: 24px;
+        }
+    }
+}
+
+
+.productspage-details{
+    font-size: 14px;
+    &-title{
+        font-size: 24px;
+    }
+}
+
+.productspage-sellerdiv{
+    font-size: 12px;
+    border-bottom: 1px solid $gray-light;
+    padding: 12px 0;
+
+    &-soldby{
+       padding: 8px 0;
+    &-seller{
+
+    color:$primary-color;
+    font-weight: 600;
+    }
+}
+}
+
+.productspage-highlights{
+    padding: 8px 0;
+
+    &-features{
+        margin: 12px 0;
+        padding-left: 16px;
+
+        li{
+            padding: 2px 0;
+        }
+    }
+    &-title{
+    font-weight: 700;
+    font-size: 12px;
+}
+&-viewall{   
+     color: black;
+    font-size: 12px;
+    font-style: italic;
+    &:hover{
+        color: $primary-color;
+    }
+}
+}
+
+.productspage-warranty{
+    display: flex;
+    justify-content: space-around;
+    background-color:$gray-light;
+  
+    padding: 15px 0;
+    &-time{
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        &-title{
+            font-weight: 700;
+        }
+        &-year{
+            color: $gray-dark;
+        }
+    }
+}
+
+
+
+//
+
+.productspage-buy{
+    width:100%;
+    background-color: #fff;
+
+    padding-right:0;
+    padding-left: 0;
+    height: 462px;
+}
+.productspage-buy-cart{
+    padding:20px;
+}
+
+.add-packet{
+    width:45%;
+}
+
+.productspage-buy-cart-detail-price{
+    h1{
+        font-size: 25px;
+        color:$secondary-color;
+    }
+}
+
+.discount-price{
+    display: inline-block;
+    color:#9e9e9e;
+}
+.discount-prices{
+    display: inline-block;
+    color: #9e9e9e;
+    text-decoration: line-through;
+    margin-left: 2px;
+}
+.discount-offer{
+    display: inline-block;
+    color: $primary-color;
+    font-size: 14px;
+    margin-left: 6px;
+    font-weight: 500;
+}
+
+
+
+.btn-cart{
+    width:100%;
+    background-color: $primary-color;
+    color:#fff;
+    padding:2px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: $font;
+    font-weight: 600;
+    border:none;
+}
+.btn-cart1{
+    width:100%;
+    background-color: #fff;
+    color:#000;
+    border: 1px solid $primary-color;
+    padding:2px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: $font;
+
+    font-weight: 600;
+}
+.productspage-buy-cart-icon {
+    i{
+        color:$gray;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    span{
+        color:$gray;
+        margin-left: 10px;
+    }
+}
+
+.productspage-buy-cart-estimate{
+    background-color: $gray-light;
+    padding:10px 20px;
+    padding-bottom: 9px;
+}
+.productspage-buy-cart-estimate-delivery{
+    border-bottom: 1px solid #dfdfdf;
+    h4{
+        font-size: 12px;
+        font-family: $font;
+        font-weight: 500;
+
+    }
+    .login-input{
+        font-size: 12px;
+        font-family: $font;
+        border: 1px solid $primary-color;
+        width:100%;
+        padding:5px 8px;
+        margin-bottom: 15px;
+    }
+    p{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .delivery-cost{
+        margin-bottom: 10px;
+    }
+}
+.estimate-normal-delivery{
+    span{
+        font-size: 12px;
+        top:-2px;
+        color:$primary-color;
+        font-family: $font;
+        font-weight: 500;
+    }
+    p{
+        font-size: 12px;
+        font-size: $font;
+        padding-left:10px;
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,46 @@
+.owl-carousel .owl-nav.disabled{
+    display: block !important;
+}
+
+.container, .ad{
+    max-width: 1300px;
+
+}
+
+
+
+
+.pr, .nex{
+
+    border: 2px solid $primary-color;
+    border-radius: 50%;
+    padding: 0px 8px;
+    background-color: $primary-color;
+    color: white;
+}
+
+
+
+
+.nav-pills .nav-link{
+    background-color: white !important;
+}
+
+.active .products-title {
+    color: $primary-color;
+   
+    &::after{
+    
+        background-color: $primary-color;
+        content: ' ';
+        height: 2px;
+        width: 100%;
+        display: block;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+
+    }
+
+    
+}

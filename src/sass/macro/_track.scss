@@ -1,0 +1,80 @@
+.track-body{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.track-heading{
+    margin: 12px 0 20px;
+    padding-left: 20px;
+    align-items: center;
+    i{
+        color:$gray;
+        margin-left: 10px;
+        font-size: 20px;   
+
+    }
+    span{
+        font-size: 14px;
+        font-family: $font;
+        margin-left: 10px;
+
+    }
+    .track-home{
+        color:$primary-color;
+        font-size: 14px;
+        font-family: $font;
+        font-weight: 600;
+        
+    }
+
+}
+.orderstatus{
+    margin: 0 auto;
+    width:30%;
+    height:500px;
+    border: 3px solid #dfdfdf;
+    float: none;
+    margin: auto;
+}
+.order-track{
+    border-bottom: 6px solid #dfdfdf;
+    padding:20px;
+}
+.order-icon{
+    margin: 0 auto;
+    width:100px;
+    height:100px;
+    
+    i{
+        font-size: 100px;
+        color:$secondary-color;
+    }
+}
+.track-progress{
+    h6{
+        font-size: 16px;
+        font-family: $font;
+        font-weight: 500;
+    }
+}
+.form-inner .track-btn{
+    background-color: #370073;
+    color: #fff;
+    padding: 8px 36px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: $font;
+    width: 100%;
+}
+@media screen and (max-width: 769px) {
+    .orderstatus{
+        width:50%;
+    }
+
+}
+@media screen and (max-width: 425px) {
+    .orderstatus{
+        width:95%;
+    }
+
+}
