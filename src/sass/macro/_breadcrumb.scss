@@ -1,0 +1,13 @@
+.bcrumb{
+
+  &-ol{
+  background-color: transparent;
+    &-li{
+      & a{
+        color: $primary-color;
+        text-decoration: none;
+      }
+
+    }
+  }
+}
