@@ -1,5 +1,7 @@
 aside{
+
     position: relative;
+
     overflow-y: auto;
     top: 20px;
     left: 0;
@@ -35,6 +37,7 @@ aside{
 
     .fact-item{
         font-weight: 500;
+        font-size: 14px;
     }
     .fact-name{
         width: 100%;
@@ -48,8 +51,11 @@ aside{
 .categories-menu1{
     display:none;
     margin-left: 10px;
+
     .fact-item{
         font-weight: 500;
+        font-size: 14px;
+
     }
     .fact-name{
         width: 100%;
@@ -65,6 +71,8 @@ aside{
     margin-bottom: 10px;
     .fact-item{
         font-weight: 500;
+        font-size: 12px;
+
     }
     .fact-name{
         width: 100%;
@@ -197,6 +205,7 @@ aside{
     .item-previous{
         visibility: visible;
         padding: 0 8px;
+        list-style-type: none;
     }
     .pagination-link{
         font-size: 14px;

@@ -2,11 +2,14 @@
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
-.logo-img-txt{
+.logo-img{
     color: $primary-color;
+    width:100%;
+    height:127px;
     cursor: pointer;
-    &:hover {
-        text-decoration: none;
+    img {
+        width:100%;
+        height:100%;
     }
 }
 .headerTop{
@@ -191,8 +194,10 @@ ul.user-link >li{
 
 }
 @media screen and (max-width: 768px) {
+
    .site-header-responsive{
        padding:15px 0 15px;
+
        position:relative;
        display:block;
    }
@@ -223,11 +228,17 @@ a .bar-menu{
     text-align: center;
 
 }
+.link{
+    width:50%;
+}
 .logo-images{
     width: 100%;
     margin-left: 65px;
+    height:127px;
     a img{
+
         width:70px;
+
     }
 }
 .links{
@@ -252,8 +263,11 @@ a .bar-menu{
 }
 .myaccount{
     margin-right: 37px;
+
     font-size: 27px;
     color:$secondary-color;
+    list-style-type: none;
+
    .account-img a{
         color:$secondary-color;
     }
@@ -273,6 +287,10 @@ a .bar-menu{
     }
     .logo-images{
         margin-left:53px;
+        height:90px;
+        img{
+            height:100%;
+        }
     }
 
     .link{

@@ -1,0 +1,67 @@
+
+._404-page{
+    width:40%;
+    height:500px;
+     margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+._1{
+    h1{
+        text-align: center;
+        font-size: 120px;
+        font-family: $font;
+        font-weight: 400;
+    
+    }
+    h3{
+        font-size: 22px;
+        font-family: $font;
+        color:#bbb;
+        text-align: center;
+
+    }
+    p{
+        font-size: 14px;
+        color:#bbb;
+        text-align: center;
+        font-family: $font;
+    }
+    ._404-btn{
+        left: 38%;
+        top: 20px;
+        position: relative;
+    }
+}
+@media screen and (max-width: 769px) {
+    ._404-page{
+        width:80%;
+    }
+    ._1{
+        margin-top: 10%;
+    h3{
+        font-size: 15px;
+
+    }
+    p{
+        font-size: 12px;
+    }
+    ._404-btn{
+        left: 39%;
+        top: 15px;
+        position: relative;
+    }
+    }
+}
+@media screen and (max-width: 427px) {
+    ._404-page{
+        width:100%;
+    }
+    ._1{
+        ._404-btn{
+            left:33%;
+        }
+    }
+}
