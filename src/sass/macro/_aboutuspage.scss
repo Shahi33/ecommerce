@@ -22,3 +22,126 @@
     border-top: 4px solid #868686;
     border-radius: 3px;
 }
+.bg-title{
+    height: 200px;
+    border:1px solid #eee;
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, .11);
+    width:80%;
+    margin:auto;
+    
+}
+.bg-title-icon{
+    margin-top:20px;
+    height:100px;
+    text-align: center;
+
+i{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 57px;
+    text-align: center;
+    padding-top: 19px;
+    color:$secondary-color;
+}
+}
+
+.bg-title{
+    text-align: center;
+    h2{
+        color:$primary-color;
+        font-size: 18px;
+        font-family:$font;
+        font-weight: 800;
+        margin:16px 0 18px
+    }
+    h3{
+        margin: 0 auto 35px;
+        color: #666;
+        font-size: 14px;
+        font-family: $font;
+        margin-bottom: 10px;
+        }
+
+
+}
+.our-mission{
+    margin-bottom: 20px;
+}
+.our-mission-h {
+    margin-top: 50px;
+    font-size: 50px;
+    padding-right: 40px;
+    font-family: $font;
+    color: #6d6d6d!important;
+    font-weight: 500;
+
+.pull-right {
+    float: right!important;
+}
+}
+.vl-border {
+    border-left: 0.5px solid #e4e4e4;
+    height: 105px;
+    
+    margin-top: 30px;
+    p{
+     margin-top: 50px;
+    vertical-align: middle;
+    font-size: 26px;
+    width: 80%;
+    padding-left: 40px;
+    color: #F67A46;
+    font-weight: 400;
+    font-family: $font;
+
+    }
+}
+@media screen and (max-width: 769px) {
+    .bg-title{
+        width:100%;
+    }
+    .our-mission-h{
+        p{
+            font-size: 45px;
+            margin-top:25px;
+            
+        }
+    }
+
+    .vl-border{
+        height:90px;
+        p{
+            font-size: 20px;
+            width: 100%;
+            margin-top: 80px;
+        }
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+.bg-title{
+    margin-bottom: 20px;
+}
+.our-mission-h{
+    p{
+        float: left!important;
+        margin-left: 75px;
+
+    }
+}
+.vl-border {
+    border-top: 0.5px solid #e4e4e4;
+    height: 190px;
+    border-left:none;
+    margin-top: 0;
+    width:100%;
+    p{
+        margin-top: 20px;
+        text-align: center;
+
+    }
+}
+}
