@@ -94,7 +94,7 @@
       box-sizing: border-box;
       font-weight: 400;
       font-size: 1em;
-      font-size: 12px;
+      font-size: 14px;
       &:focus{
         outline: none;
       }
@@ -109,7 +109,7 @@
       text-decoration: none;
       font-weight: 400;
       text-shadow: none;
-      font-size: 12px;
+      font-size: 14px;
       display: inline-block;
       outline: 0;
       background-color: $primary-color;
@@ -130,7 +130,7 @@
         text-shadow: none;
         display: inline-block;
         outline: 0;
-        font-size: 12px;
+        font-size: 14px;
         background-color: $primary-color;
         line-height: 1.618;
         margin-left: -2px;
@@ -182,10 +182,9 @@ td{
         background-color:$primary-color;
         line-height: 1.5em;
         width: 80%;
-        font-size: 12px;
+        font-size: 14px;
         text-align: center;
-        margin-left: 30px;
-        margin-top: 30px;
+        margin:10px auto;
         &:hover{
           background-color: darken($primary-color,5%);
         }
