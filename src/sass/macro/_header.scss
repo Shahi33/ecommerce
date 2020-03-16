@@ -10,7 +10,7 @@
     }
 }
 .headerTop{
-    padding:30px 0 16px;
+    padding:20px 0 15px;
     position: relative;
 }
 
@@ -18,7 +18,10 @@
     display:none;
 }
 .logo-img{
-    width:100%;
+    text-align: center;
+    img{
+        width: 150px;
+    }
 }
 .site-header-responsive{
     display:none;
@@ -35,7 +38,7 @@
         color: $gray;
         font-size: 12px;
         font-family: $font;
-        
+
 
     }
     i{
@@ -125,9 +128,10 @@ ul.user-link >li{
     height: 43px;
     padding: 0;
     position: absolute;
-    right: 118px;
+    right: 220px;
     text-align: center;
     width: 100px;
+    outline:none
 }
 #cartCountTiles {
     margin: 0 0 0 20px;
@@ -150,7 +154,7 @@ ul.user-link >li{
     width: 22px;
     margin-top: 12px;
     font-size: 18px;
-   
+
 }
 .cartdiv  i{
     color:#fff;
@@ -175,7 +179,7 @@ ul.user-link >li{
     font-size: 20px;
 }
 @media screen and (max-width: 1024px) {
-    
+
     .searchDiv input[type="text"] {
         margin-left:90px
     }
@@ -183,15 +187,15 @@ ul.user-link >li{
         position: absolute;
         left: 108px;
     }
-    
+
 
 }
 @media screen and (max-width: 768px) {
    .site-header-responsive{
-       padding:30px 0 16px;
+       padding:15px 0 15px;
        position:relative;
        display:block;
-   } 
+   }
    .headerTop{
        display:none;
    }
@@ -223,7 +227,7 @@ a .bar-menu{
     width: 100%;
     margin-left: 65px;
     a img{
-        width:100%;
+        width:70px;
     }
 }
 .links{
@@ -239,21 +243,21 @@ a .bar-menu{
 }
 .myaccountnav{
     margin-right: 37px;
-    font-size: 27px;  
-    color:$secondary-color;  
+    font-size: 27px;
+    color:$secondary-color;
    .account-img a{
         color:$secondary-color;
     }
-    
+
 }
 .myaccount{
     margin-right: 37px;
-    font-size: 27px;  
-    color:$secondary-color;  
+    font-size: 27px;
+    color:$secondary-color;
    .account-img a{
         color:$secondary-color;
     }
-    
+
 
 }
 }
@@ -270,7 +274,7 @@ a .bar-menu{
     .logo-images{
         margin-left:53px;
     }
-    
+
     .link{
         width:50%;
     }
@@ -283,6 +287,6 @@ a .bar-menu{
         margin-right: 32px;
 
     }
-    
+
 
 }

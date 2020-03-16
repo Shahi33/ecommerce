@@ -1,5 +1,5 @@
 aside{
-    position: fixed;
+    position: relative;
     overflow-y: auto;
     top: 20px;
     left: 0;
@@ -23,7 +23,7 @@ aside{
         font-weight: 500;
         text-transform: uppercase;
         color: #212121;
-        margin-bottom: 5px; 
+        margin-bottom: 5px;
         font-family: $font;
     }
 }
@@ -32,7 +32,7 @@ aside{
 
 }
 .categories-menu{
-    
+
     .fact-item{
         font-weight: 500;
     }
@@ -167,15 +167,15 @@ aside{
         font-family: $font;
         font-weight: 400;
     }
-    
+
     .select-item{
         margin-top: 3px;
         padding: 5px 8px;
         width: 100%;
         top: 4px;
-        margin-left: 5px;   
+        margin-left: 5px;
         font-size: 14px;
-        font-family: $font; 
+        font-family: $font;
     }
 }
 #pagination{
@@ -192,7 +192,7 @@ aside{
         padding:0;
         display:flex;
 
-        
+
     }
     .item-previous{
         visibility: visible;
@@ -223,7 +223,7 @@ aside{
 .products-cards:hover{
     border:none;
     border-color:#fff;
-    
+
 }
 .products-cards{
     width:100%;
