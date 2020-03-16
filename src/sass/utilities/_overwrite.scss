@@ -1,3 +1,19 @@
+ul{
+    list-style: none;
+    margin:0;
+    li{
+        list-style: none;
+    }
+}
+
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration:none
+    }
+}
+
+
 .owl-carousel .owl-nav.disabled{
     display: block !important;
 }
@@ -28,9 +44,9 @@
 
 .active .products-title {
     color: $primary-color;
-   
+
     &::after{
-    
+
         background-color: $primary-color;
         content: ' ';
         height: 2px;
@@ -42,5 +58,5 @@
 
     }
 
-    
+
 }

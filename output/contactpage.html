@@ -24,8 +24,7 @@
 </head>
 <body >
 
-
-<header class="site-header">
+    <header class="site-header">
     <div class="container-fluid main-heading">
         <div class="headerTop main-header fullwidth">
             <div class=" row">
@@ -122,7 +121,7 @@
     </div>
 </header>
 
-
+    
         <div class="site-header-responsive">
             <div class=" row header-responsive">
                 <div class="col-ms-3 link">
@@ -179,8 +178,54 @@
             </div>
         </div>
 
+    <div class="megasections">
+    <div class="megasections-content">
+        <div class="megasections-menu desktop-megamenu">
+            <ul>
+                <li>
+                    <a href=""><span>Electronics <i class="fas fa-angle-down"></i></span></a>
+                    <ul>
+                        <li class="level1 parent">
+                            <a href=""><span>Projectors & Peripherals</span></a>
+                            <ul class="level1 submenu">
+                                <li class="level2 ">
+                                    <a href=""><span>Projectors</span></a>
+                                </li>
+                                <li class="level2 ">
+                                    <a href=""><span>Portable Projectors</span></a>
+                                </li>
+                                <li class="level2 ">
+                                    <a href=""><span>Screens</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href=""><span>Women Fashion <i class="fas fa-angle-down"></i></span></a></li>
+                <li><a href=""><span>Men Fashion <i class="fas fa-angle-down"></i></span></a></li>
+                <li><a href=""><span>Books <i class="fas fa-angle-down"></i></span></a></li>
+                <li><a href=""><span>Home & Living <i class="fas fa-angle-down"></i></span></a></li>
+                <li><a href=""><span>Fitness & Heathcare <i class="fas fa-angle-down"></i></span></a></li>
+                <li><a href=""><span>Kids <i class="fas fa-angle-down"></i></span></a></li>
+            </ul>
+        </div>
+        <div class="mobile-megamenu">
+            <ul>
+                <li class="level0">
+                    <a href="" class="level-link"><span>Electronics <i class="fas fa-angle-down"></i></span></a>
+                </li>
+                <li class="level0">
+                    <a href="" class="level-link"><span>Electronics <i class="fas fa-angle-down"></i></span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
 
-<div class="container">
+    
+    <section class="contact-page my-3">
+    <div class="container">
+    <div class="container">
     <nav aria-label="breadcrumb bcrumb">
         <ol class="breadcrumb bcrumb-ol">
             <li class="breadcrumb-item bcrumb-ol-li"><a href="#">Home</a></li>
@@ -189,126 +234,58 @@
         </ol>
     </nav>
 </div>
-
-<div class="container reglog">
-    <div class="row">
-    <div class=" col-lg-6">
-    <div class="loginpage">
-            <div class="row ">
-                <div class="col-md-6 col-sm-12">
-                    <div class="loginpage-heading">
-                        <h1> Register</h1>
+        <div class="row">
+            <div class="col-md-5 col-sm-12">
+                <div class="contact-form mt-2">
+                <h3><strong>Message Us</strong></h3>
+                <form action="" method="post" class="contactus-container">
+                    <div class="contactus-inner">
+                    <input type="text" placeholder="Enter your name" name="Name"  id="contact-label" class="contact-input" required>  
                     </div>
-                </div>
+                        <div class="contactus-inner">
+                    <input type="text" placeholder="Enter your email" name="Name"  id="contact-label" class="contact-input" required>  
+                    </div>
+                        <div class="contactus-inner">
+                    <input type="text" placeholder="Message Subject" name="Name"  id="contact-label" class="contact-input" required>  
+                    </div>
+                        <div class="contactus-inner">
+                    <input type="text" placeholder="Phone Number" name="Name"  id="contact-label" class="contact-input" required>  
+                    </div>
+                    <div class="contactus-inner">
+                    <textarea class="contact-message" name="msg" rows="5" placeholder="Message" ></textarea>
+                    </div>
+                    <div class="contactus-inner">
+                     <button type="button" class="contact-btn ">Send Message</button>
 
+                    </div>
+                </form>
+                </div>
             </div>
-    </div>
-    
-    <div class="register-inners">
-        <form>
-    <div class="row">
-
-        <div class="col-md-6 col-lg-6 col-sm-12 register-inner">
-
-                <div class="form-inner">
-                <label class="form-label"><span class="red-text">*</span>Name</label><br>
-                <input type="text" placeholder="Name" name="Name"  id="login-label" class="login-input-style" required>  <br>
-                <label class="form-label"><span class="red-text">*</span>Mobile Number</label><br>
-                <input type="text" placeholder="+977 98xxxxxxx" name="Name"  id="login-label" class="login-input-style" required>  <br>
-                <label class="form-label"><span class="red-text">*</span>Password</label><br>
-                <input type="text" placeholder="Password" name="Name"  id="login-label" class="login-input-style" required>  <br><br>
-
-           </div>
-
-        </div>
-        <div class="col-md-6  col-lg-6 col-sm-12 login-form">
-
-            <div class="form-inner">
-                <label class="form-label"><span class="red-text">*</span>E-mail ID</label><br>
-                <input type="text" placeholder="Email" name="Name"  id="login-label" class="login-input-style" required>  <br>
-                <label class="form-label"><span class="red-text">*</span>Alternate Number</label><br>
-                <input type="text" placeholder="+977 98xxxxx" name="Name"  id="login-label" class="login-input-style" required>  <br>
-                <label class="form-label">Gender</label><br>
-                <div class="reg-gender-button">
-                <input type="radio" id="male" name="gender" value="male" class="checkbox-input">
-                    <label for="male"  class="checkbox-label">Male</label>
-                    <input type="radio" id="female" name="gender" value="female"class="checkbox-input">
-                    <label for="female" class="checkbox-label">Female</label><br>
+            <div class="col-md-7 col-sm-12">
+            <div class="contact-form mt-2">
+                <h3><strong>Contact Address</strong></h3>
+                <div class="map">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3533.430392401309!2d85.34972601506134!3d27.673089682806285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sKoteshwor-35+narephant+Kathmandu%2C+Nepal+44600!5e0!3m2!1sne!2snp!4v1528451030783" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen>         
+                    </iframe>
                 </div>
+                <div class="contact-info">
+                  <p class="contact-info-list">Kathmandu Nepal</p>
 
-
-           </div>
-
-
-
-        </div>
-        <div class="col-md-12">
-            <button type="button" class="register-btn ">CREATE MY ACCOUNT</button>
-
-        </div>
-
-    </div>
-        </form>
-    </div>
-    </div>
-
-    <div class="rin col-lg-6">
-
-        <div class="loginpage">
-            <div class="row ">
-                <div class="col-md-6 col-sm-12">
-                    <div class="loginpage-heading">
-                        <h1> Login</h1>
-                    </div>
+                    <ul>
+                        <li>Location: Kathmandu Nepal</li>
+                        <li>Call us: +977 9860345322</li>
+                        <li>Email Us: ecommerce1@gmail.com</li>
+                    </ul>
+            
                 </div>
-
-
+            </div>
             </div>
         </div>
 
-        <div class="login-inners">
-            <form>
-            <div class="row">
-                <div class="col-md-6 col-lg-6 col-sm-12 login-inner">
-
-                        <div class="form-inner">
-                            <label class="form-label"><span class="red-text">*</span>E-mail ID</label><br>
-                            <input type="text" placeholder="Email" name="Name"  id="login-label" class="login-input-style" required>  <br>
-                            <label class="form-label"><span class="red-text">*</span>Password</label><br>
-                            <input type="text" placeholder="Password" name="Name"  id="login-label" class="login-input-style" required>  <br><br><br>
-
-                        </div>
-
-                    <div class="col-md-12 flogin">
-                        <div class="forget-password"><a href="">Forget Password</a></div>
-                        <button type="button" class=" login-btn ">Login</button>
-
-                    </div>
-
-                </div>
-                <div class="col-md-6  col-lg-6 col-md-12 login-form">
-                    <div class="login-socialsite">
-                        <p>Login in with socialsites</p>
-                        <div class="login-socialicon">
-                            <a href="" class="facebook"><i class="fab fa-facebook"></i></a>
-                            <a href="" class="google"><i class="fab fa-google"></i></a>
-
-
-                        </div>
-                    </div>
-                </div>
-
-
-                </div>
-
-
-        </div>
-
     </div>
-    </div>
-</div>
+</section>
 
-<footer class="footer-section">
+    <footer class="footer-section">
     <div class="container-fluid">
         <div class="footer-wrapper">
                 <div class="row">
