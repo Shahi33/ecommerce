@@ -83,52 +83,7 @@
 
     }
   }
-//=======
-//      font-size: 14px;
-//      &:focus{
-//        outline: none;
-//      }
-//
-//    }
-//    &_btn{
-//      border: 0;
-//      background: 0 0;
-//      color: #fff;
-//      cursor: pointer;
-//      padding: 8px;
-//      text-decoration: none;
-//      font-weight: 400;
-//      text-shadow: none;
-//      font-size: 14px;
-//      display: inline-block;
-//      outline: 0;
-//      background-color: $primary-color;
-//      line-height: 1.630;
-//      margin-left: -6px;
-//      &:hover{
-//        background-color: darken($primary-color,5%);
-//      }
-//    }
-//    .update_btn{
-//        float:right;
-//        border: 0;
-//        color: #fff;
-//        cursor: pointer;
-//        padding: 8px 16px;
-//        text-decoration: none;
-//        font-weight: 400;
-//        text-shadow: none;
-//        display: inline-block;
-//        outline: 0;
-//        font-size: 14px;
-//        background-color: $primary-color;
-//        line-height: 1.618;
-//        margin-left: -2px;
-//        &:hover{
-//          background-color: darken($primary-color,5%);
-//        }
-//      }
-//>>>>>>> origin/asmita
+
 }
 
 .coupon {
@@ -240,36 +195,6 @@
     width: 100%;
     text-align: right;
 
-//<<<<<<< HEAD
-//=======
-//}
-//    .checkout-button{
-//        border: 0;
-//        color: #fff;
-//        cursor: pointer;
-//        padding: 8px;
-//        text-decoration: none;
-//        display: block;
-//        outline: 0;
-//        background-color:$primary-color;
-//        line-height: 1.5em;
-//        width: 80%;
-//        font-size: 14px;
-//        text-align: center;
-//        margin:10px auto;
-//        &:hover{
-//          background-color: darken($primary-color,5%);
-//        }
-//      }
-//}
-//.cart-links{
-//    color:#333;
-//    display:block;
-//    margin-top: 5px;
-//    font-size: 16px;
-//    font-weight: 500;
-//    text-align: center;
-//>>>>>>> origin/asmita
   }
 
   .checkout-button {
@@ -285,9 +210,6 @@
     width: 100%;
     font-size: 12px;
     text-align: center;
-    //margin-left: 30px;
-    //margin-top: 30px;
-
     &:hover {
       background-color: darken($primary-color, 5%);
     }
