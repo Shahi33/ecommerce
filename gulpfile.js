@@ -133,7 +133,8 @@ gulp.task('nunjucks', function() {
     return gulp.src('src/html/pages/**/*.+(njk)')
         .pipe(render({
             path: ['src/html/templates/partials/',
-                'src/html/templates/macro/'
+                'src/html/templates/macro/',
+                'src/html/templates/macro/account-settings'
             ]
         }))
         .pipe(gulp.dest('output'));
