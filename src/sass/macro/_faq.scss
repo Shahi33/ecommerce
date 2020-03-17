@@ -1,0 +1,31 @@
+.faq-accordion{
+    h1{
+        font-size:24px;
+        font-family: $font;
+        font-weight: 600;
+        span{
+            color:#bbb;
+            font-size: 18px;
+            font-family: $font;
+        }
+    }
+
+    
+    button{
+    width:100%;
+    padding: 15px;
+    border:none;
+    background-color: $primary-color;
+    color:#fff;
+    font-size: 20px;
+    font-family: $font;
+    margin: 10px 0;
+    }
+}
+.show-page{
+    p{
+        font-size: 14px;
+        font-family: $font;
+    
+    }
+}
