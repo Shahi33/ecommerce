@@ -1,0 +1,90 @@
+.privacy-inner-page{
+    width:70%;
+    margin:0 auto;
+    background-color: #fff;
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, .11);
+    border-radius: 4px;
+    margin-bottom: 20px;
+
+}
+.privacy-inner{
+    background-color: $primary-color;
+    border-radius: 4px 4px 0 0;
+    
+    h1{
+        color:#fff;
+        font-size: 20px;
+        font-family: $font;
+        height: 50px;
+        padding:10px;
+    }
+}
+.privacy-border{
+    border-top: 3px solid $primary-color;
+
+    .top-section{
+        padding-top: 20px;
+        font-size: 14px;
+        font-family: $font;
+        padding-left: 20px;
+    }
+    p{
+        font-size: 12px;
+        font-family: $font;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+}
+.privacy-policy-inner{
+    padding:30px;
+}
+.privacy-policy-list{
+
+    h4{
+        font-size: 18px;
+        font-family: $font;
+        font-weight: 500;
+    }
+    li{
+        list-style: square;
+        margin-left: 30px;
+        font-size: 14px;
+        font-family: $font;
+        
+    }
+    p{
+        padding-left: 10px;
+        margin-bottom: 2px;
+    }
+}
+.policy-sharing{
+    h4{
+        font-size: 18px;
+        font-weight: $font;
+        font-weight: 600;
+    }
+    p{
+        font-size: 14px;
+        font-family: $font;
+        padding:0;
+    }
+    li{
+        list-style: square;
+        margin-left: 30px;
+        font-size: 14px;
+        font-family: $font;
+        
+    }
+}
+@media screen and (max-width: 769px) {
+    .privacy-inner-page{
+        width:90%;
+    }
+}
+@media screen and (max-width: 427px) {
+    .privacy-inner-page{
+        width:100%;
+        padding:10px;
+    }
+}
