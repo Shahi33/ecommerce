@@ -1,0 +1,82 @@
+.accounts{
+  margin-bottom: 20px;
+  border: 1px solid rgba(0,0,0,0.1);
+  box-shadow: 0 4px 2px -2px rgba(23, 84, 116, 0.18);
+  border-radius: 4px;
+  padding: 12px;
+  &-nav{
+    margin-bottom: 6px;
+    li{
+      padding: 0px;
+    }
+  .active{
+    opacity: 1;
+  }
+    a{
+      background-color: $secondary-color !important;
+      opacity: .6;
+      color: white;
+      padding: 16px 5px;
+      border-radius: 0px !important;
+    }
+  }
+
+  &-content{
+
+    &-settings{
+      border-radius: 4px;
+      border: 1px solid rgba(0,0,0,0.1);
+      box-shadow: 0 3px 5px -5px black;
+      margin-bottom: 12px;
+
+    }
+  }
+}
+
+.settings{
+  &-header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.1);
+    padding: 8px;
+    margin-bottom: 12px;
+    &-title {
+      color: $primary-color;
+      font-weight: 600;
+    }
+  }
+  &-body{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 14px;
+    &-item{
+      padding: 1px 0;
+      &-data{
+        padding-left: 10px;
+      }
+    }
+  }
+}
+
+.user{
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+
+  &-details{
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+
+  }
+}
+
+.username{
+  line-height: 0.8em;
+}
+.email{
+  font-size: 12px;
+}

@@ -5,6 +5,9 @@
 }
 .products{
     position: relative;
+    a{
+        background-color: white !important;
+    }
 &-card{
     height: 370px;
     width: 220px;
