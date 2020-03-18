@@ -1,87 +1,205 @@
-<div class="container">
-    <ul class="nav nav-pills">
-        <li class="nav-item ">
-            <a href="#ty" class="nav-link active" data-toggle="tab">
-                <h3 class="products-title">Description</h3>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a href="#tb" class="nav-link" data-toggle="tab">
-                <h3 class="products-title">Review</h3>
-            </a>
-        </li>
-    </ul>
-</div> 
-<div class="tab-content clearfix">
-
-    <div class="tab-pane active container description" id="ty">
-        <div class="description-items-points">
-            <h4 class="description-items-points-title">Display</h4>
-            <ul>
-                <li>Screen Size:43"</li>
-                <li>Screen Type: LED</li>
-                <li>HD Technology &amp; Resolution: Full HD</li>
-                <li>3D:No</li>
-                <li>Smart TV:Yes</li>
-            </ul>
-
-        </div>
-
-
-
-        <div class="description-items-points">
-            <h4 class="description-items-points-title">Video</h4>
-            <ul>
-                <li>Display Colours : 1.07G</li>
-                <li>Viewing Angle : 176/176</li>
-                <li>Contrast Ratio : Dynamic (1200:1)</li>
-                <li>Brightness : 400 nits</li>
-                <li>Selectable Picture Modes : News/Movie/Music/Standard/User</li>
-                <li>Picture Enhancement : Backlight Adjustable, Dynamic Contrast Correction (DCC)</li>
-            </ul>
-        </div>
-
-
-
-
-
-        <div class="description-items-points">
-
-            <h4 class="description-items-points-title">Audio</h4>
-            <ul>
-                <li>Speaker:2</li>
-                <li>Selectable Sound Modes : News, Movie, Music, Standard, User</li>
-                <li>Sound Enhancement : Auto Volume Leveller</li>
-            </ul>
-        </div>
-
-
-
-
-
-        <div class="description-items-points">
-            <h4 class="description-items-points-title">Connectivity</h4>
-            <ul>
-                <li> USB: 2 x USB v2.0</li>
-                <li>HDMI:2</li>
-                <li>PC Audio In (MINI JACK) 1</li>
-            </ul>
-        </div>
-
-
+<div class="product-details">
+    <div class="">
+        <ul class="nav nav-pills product-details-nav">
+            <li class="nav-item ">
+                <a href="#ty" class="nav-link active" data-toggle="tab">
+                    <span class="details-title">Description</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#tb" class="nav-link" data-toggle="tab">
+                    <span class="details-title">Review</span>
+                </a>
+            </li>
+        </ul>
     </div>
+    <div class="tab-content clearfix">
 
-    <div class="tab-pane" id="tb">
-        <div class="review container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="review-avg">
-                        
+        <div class="tab-pane active container description" id="ty">
+            <div class="description-items-points">
+                <h4 class="description-items-points-title">Display</h4>
+                <ul>
+                    <li>Screen Size:43"</li>
+                    <li>Screen Type: LED</li>
+                    <li>HD Technology &amp; Resolution: Full HD</li>
+                    <li>3D:No</li>
+                    <li>Smart TV:Yes</li>
+                </ul>
+
+            </div>
+
+
+
+            <div class="description-items-points">
+                <h4 class="description-items-points-title">Video</h4>
+                <ul>
+                    <li>Display Colours : 1.07G</li>
+                    <li>Viewing Angle : 176/176</li>
+                    <li>Contrast Ratio : Dynamic (1200:1)</li>
+                    <li>Brightness : 400 nits</li>
+                    <li>Selectable Picture Modes : News/Movie/Music/Standard/User</li>
+                    <li>Picture Enhancement : Backlight Adjustable, Dynamic Contrast Correction (DCC)</li>
+                </ul>
+            </div>
+
+
+
+
+
+            <div class="description-items-points">
+
+                <h4 class="description-items-points-title">Audio</h4>
+                <ul>
+                    <li>Speaker:2</li>
+                    <li>Selectable Sound Modes : News, Movie, Music, Standard, User</li>
+                    <li>Sound Enhancement : Auto Volume Leveller</li>
+                </ul>
+            </div>
+
+
+
+
+
+            <div class="description-items-points">
+                <h4 class="description-items-points-title">Connectivity</h4>
+                <ul>
+                    <li> USB: 2 x USB v2.0</li>
+                    <li>HDMI:2</li>
+                    <li>PC Audio In (MINI JACK) 1</li>
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div class="tab-pane" id="tb">
+            <div class="review container">
+                <div  class="reviews " id="tab-reviews">
+                    <div class="">
+
+                        <form action="">
+                            <div class="form-group">
+                                <label for="">
+                                    Name
+                                </label>
+                                <input type="text" placeholder="Your Name" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">
+                                    Email
+                                </label>
+                                <input type="email" placeholder="Your Name" class="form-control">
+                            </div>
+
+                        </form>
+                        <div class="form-group d-flex align-items-center">
+                            <span class="review--heading">Add review</span>
+                            <fieldset class="rating">
+                                <input type="radio" id="star5" name="rating" value="5"><label class="full"
+                                                                                              for="star5"
+                                                                                              title="Awesome - 5 stars"></label>
+                                <input type="radio" id="star4" name="rating" value="4"><label class="full"
+                                                                                              for="star4"
+                                                                                              title="Pretty good - 4 stars"></label>
+
+                                <input type="radio" id="star3" name="rating" value="3"><label class="full"
+                                                                                              for="star3"
+                                                                                              title="Meh - 3 stars"></label>
+
+                                <input type="radio" id="star2" name="rating" value="2"><label class="full"
+                                                                                              for="star2"
+                                                                                              title="Kinda bad - 2 stars"></label>
+
+                                <input type="radio" id="star1" name="rating" value="1"><label class="full"
+                                                                                              for="star1"
+                                                                                              title="Sucks big time - 1 star"></label>
+
+                            </fieldset>
+                            <div class="clearfix"></div>
+                        </div>
+
+                    </div>
+                    <form action="" method="post" class="review-form">
+
+                        <label for="comment">write something</label>
+                        <textarea type="text" class="form-control" id="comment"
+                                  placeholder="write something" rows="3" cols="100">
+                    </textarea>
+                        <button class=" checkout float-right mt-1 " href=""> comment</button>
+                        <div class="clearfix"></div>
+                    </form>
+                    <div class="clearfix"></div>
+
+                    <div class="review-container">
+                        <h3 class="review-title">Reviews</h3>
+                        <article class="reviews" style="display: block;">
+                            <figure class="user-image">
+                                <img src="https://yt3.ggpht.com/-lASduCKYbGI/AAAAAAAAAAI/AAAAAAAAAAA/bCSffOUUASk/s48-c-k-no-mo-rj-c0xffffff/photo.jpg"
+                                     alt="">
+                            </figure>
+                            <div class="review-right">
+                                <span class="username"> Jhon Deo</span>&nbsp;<span class="published">2018/2/9</span>&nbsp;&nbsp;<span>stars</span>
+                                <p>lorem ipsum sumet is the inlu one that is very popular in webs designing
+                                    to place a dumy text</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </article>
+                        <article class="reviews" style="display: block;">
+                            <figure class="user-image">
+                                <img src="https://yt3.ggpht.com/-lASduCKYbGI/AAAAAAAAAAI/AAAAAAAAAAA/bCSffOUUASk/s48-c-k-no-mo-rj-c0xffffff/photo.jpg"
+                                     alt="">
+                            </figure>
+                            <div class="review-right">
+                                <span class="username"> Jhon Deo</span>&nbsp;<span class="published">2018/2/9</span>&nbsp;&nbsp;<span>stars</span>
+                                <p>lorem ipsum sumet is the inlu one that is very popular in webs designing
+                                    to place a dumy text</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </article>
+                        <article class="reviews" style="display: block;">
+                            <figure class="user-image">
+                                <img src="https://yt3.ggpht.com/-lASduCKYbGI/AAAAAAAAAAI/AAAAAAAAAAA/bCSffOUUASk/s48-c-k-no-mo-rj-c0xffffff/photo.jpg"
+                                     alt="">
+                            </figure>
+                            <div class="review-right">
+                                <span class="username"> Jhon Deo</span>&nbsp;<span class="published">2018/2/9</span>&nbsp;&nbsp;<span>stars</span>
+                                <p>lorem ipsum sumet is the inlu one that is very popular in webs designing
+                                    to place a dumy text</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </article>
+                        <article class="reviews">
+                            <figure class="user-image">
+                                <img src="https://yt3.ggpht.com/-lASduCKYbGI/AAAAAAAAAAI/AAAAAAAAAAA/bCSffOUUASk/s48-c-k-no-mo-rj-c0xffffff/photo.jpg"
+                                     alt="">
+                            </figure>
+                            <div class="review-right">
+                                <span class="username"> Jhon Deo</span>&nbsp;<span class="published">2018/2/9</span>&nbsp;&nbsp;<span>stars</span>
+                                <p>lorem ipsum sumet is the inlu one that is very popular in webs designing
+                                    to place a dumy text</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </article>
+                        <article class="reviews">
+                            <figure class="user-image">
+                                <img src="https://yt3.ggpht.com/-lASduCKYbGI/AAAAAAAAAAI/AAAAAAAAAAA/bCSffOUUASk/s48-c-k-no-mo-rj-c0xffffff/photo.jpg"
+                                     alt="">
+                            </figure>
+                            <div class="review-right">
+                                <span class="username"> Jhon Deo</span>&nbsp;<span class="published">2018/2/9</span>&nbsp;&nbsp;<span>stars</span>
+                                <p>lorem ipsum sumet is the inlu one that is very popular in webs designing
+                                    to place a dumy text</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </article>
+
+
+                        <button class="show-more center"> show more</button>
+                        <div class="clearfix"></div>
+
                     </div>
                 </div>
-                <div class="col-lg-3">2</div>
-                <div class="col-lg-4">3</div>
-                <div class="col-lg-2">4</div>
+
             </div>
         </div>
     </div>

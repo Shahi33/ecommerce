@@ -205,21 +205,20 @@ ul.user-link >li{
        display:none;
    }
    .header-responsive{
+       justify-content: space-between;
        align-items: center;
+       display:flex;
    }
    .responsive-menu{
        display:flex;
        justify-content: center;
+       align-items: center;
    }
    .bar-menu {
-    height: 40px;
     width: 40px;
     border-radius: 50%;
     color: $primary-color;
     display: block;
-    //position: absolute;
-    //left: 14px;
-    //top: 32%;
     font-size:30px;
 }
 a .bar-menu{
