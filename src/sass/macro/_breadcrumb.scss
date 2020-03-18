@@ -1,10 +1,11 @@
 .bcrumb{
-
+  background:#eee;
+  margin-top: 10px;
   &-ol{
   background-color: transparent;
     &-li{
-      & a{
-        color: $primary-color;
+      a{
+        color: rgba(55, 0, 115, 1);
         text-decoration: none;
       }
 

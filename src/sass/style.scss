@@ -16,16 +16,39 @@
 @import "macro/productspage";
 @import "macro/description";
 
+//megamenu
+@import "macro/megamenu";
 
 //login page
 @import "macro/reglog";
 
 @import "macro/track";
 
-
 @import "macro/omini-kitchen";
+@import "macro/404";
+@import "macro/aboutuspage";
 
+
+@import "macro/breadcrumb";
+
+@import "macro/cartpage";
+@import "macro/contactpage";
+
+
+//checkoutpage
+@import "macro/checkoutpage";
+
+//account page
+@import "macro/account";
+
+@import "macro/faq";
+@import "macro/privacypage";
+
+
+<<<<<<< HEAD
 @import "macro/breadcrumb";
 
 @import "macro/accordion";
 @import "macro/accounts";
+=======
+>>>>>>> aa4900b688925fc1b405a26502cf2fefa954d0e9

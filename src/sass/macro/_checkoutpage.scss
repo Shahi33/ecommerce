@@ -1,0 +1,143 @@
+
+
+
+//progressbar
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+  display: none;
+}
+
+.progressbar {
+  display: block;
+  counter-reset: step;
+  margin-bottom: 1rem;
+
+  li {
+    float: left;
+    position: relative;
+    width: 33.33%;
+    text-align: center;
+
+    &:before {
+      content: counter(step);
+      counter-increment: step;
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+      border: 2px solid #ed2324;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+    }
+
+
+  }
+}
+
+#progressbar li.actively:before {
+  background: #ed2324;
+  color: white;
+}
+
+.radio {
+  display: inline-block;
+
+  figure {
+    width: 100px;
+    margin-left: 20px;
+    img{
+      width: 100%;
+      height:100%
+    }
+  }
+}
+
+.checkoutpage-container {
+  form {
+    margin-bottom: 3rem;
+  }
+
+  fieldset {
+    label {
+
+    }
+  }
+
+  .next {
+    position: static;
+    border-radius: 3px;
+    padding:6px;
+  }
+}
+
+.mini-cart {
+  width: 100%;
+  display: inline-block;
+}
+
+.mini-cart figure {
+  width: 70px;
+  float: left;
+  margin-right: 5px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.mini-cart .newscard-content {
+  float: right;
+  width: calc(100% - 80px);
+  color: #000;
+}
+
+.mini-cart span {
+  font-size: 14px;
+}
+
+.mini-cart .span.item-title {
+  display: block;
+}
+
+.mini-cart .item-price {
+  font-weight: bold;
+}
+
+.mini-cart:not(:last-of-type) {
+  border-bottom: 1px solid #999999;
+}
+
+.item-checkout .item-subtotal {
+  font-size: 16px;
+  border-top: 1px solid #999999;
+  margin: 10px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #999999;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-checkout .item-subtotal .item-price {
+  font-weight: bold;
+}
+
+.item-checkout .item-total {
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #999999;
+  margin: 10px 0;
+}
+
+.item-checkout .content a {
+  padding: 10px;
+  background: #000;
+  color: #ffffff !important;
+  display: inline-block;
+  width: 48%;
+  text-align: center;
+}

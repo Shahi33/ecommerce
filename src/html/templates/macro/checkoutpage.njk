@@ -1,0 +1,245 @@
+<section class="checkoutpage-container">
+
+    <div class="container check-out ">
+        {% include 'breadcrumb.njk' %}
+        <form action="" id="msform">
+            <ul class="liststyle--none progressbar" id="progressbar">
+                <li class="actively">Address</li>
+                <li>Payment</li>
+                <li>Done</li>
+                <div class="clearfix"></div>
+            </ul>
+            <div class="clearfix"></div>
+            <fieldset>
+                <div class="row">
+                    <div class="col-md-7 col-sm-6 ">
+                        <div class="box-shadow ">
+
+                            <div class="form-group" >
+                                <label class="emailDisable w-100 mb-2" for="exampleFormControlInput1" style="background: #f1f1f1;
+                                padding: 15px;
+                                color: black;
+                                margin: 0;">Email Address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                       placeholder="name@example.com">
+                            </div>
+                            <hr>
+                            <h4 style="background: #f1f1f1;
+                                padding: 15px;
+                                color: black;
+                                margin: 0;"> Delivery Address</h4>
+                            <h5 style="color:#444 ;margin-top:1rem"> Add Address </h5>
+                            <div class="form-stacked ">
+
+                                <div class="my-1">
+                                    <label for="form-stacked-text">First Name</label>
+
+                                    <input class="form-control" id="form-stacked-text" type="text"
+                                           placeholder="firstname">
+                                </div>
+                                <div class="my-1">
+                                    <label for="form-stacked-text">Last Name</label>
+
+                                    <input class="form-control" id="form-stacked-text" type="text"
+                                           placeholder="lastname">
+
+                                </div>
+                                <div class="my-1">
+                                    <label for="form-stacked-text">Address</label>
+                                    <input class="form-control" id="form-stacked-text" type="text"
+                                           placeholder="Address">
+                                </div>
+                                <div class="my-1">
+                                    <label for="form-stacked-text">City</label>
+                                    <input class="form-control" id="form-stacked-text" type="text" placeholder="city">
+                                </div>
+                                <div class="my-1">
+                                    <label for="form-stacked-text">Postcode</label>
+                                    <input class="form-control" id="form-stacked-text" type="text"
+                                           placeholder="postcode">
+                                </div>
+                                <button type="button" class=" next submit">Save this address</button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-5 col-sm-6">
+                        <div class="box-shadow">
+                            <h4 style="background: #f1f1f1;padding: 15px;color: black;margin: 0 0 10px 0;">Your
+                                order</h4>
+                            <a href="" class="mini-cart">
+                                <figure>
+                                    <img width="300" height="143"
+                                         src="http://m2ce.axiomthemes.com/wp-content/uploads/2016/06/14-480x600.jpg"
+                                         alt="">
+                                </figure>
+                                <div class="newscard-content ">
+                                    <span class="item-title">Geometry Single Bowl Sink </span>
+                                    <div>4 x <span class="item-price">425</span></div>
+                                </div>
+                            </a>
+                            <div class="item-checkout">
+                                <div class="item-subtotal">Subtotal: <span class="item-price">Rs.425</span></div>
+                                <div class="item-total">Subtotal: <span class="item-price">Rs.425</span></div>
+
+                            </div>
+                            {#<input type="submit" class="uk-button" id="place_order" value="Place order" data-value="Place order">#}
+
+                        </div>
+
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="">
+                <div class="row paymenting field">
+
+                    <div class="col-md-4">
+                        <div class="payment-method__container box-shadow">
+                            <h4 style="background: #f1f1f1;padding: 15px;color: black;margin: 0;">
+                                Payment method
+                            </h4>
+                            <div id="payment" class="checkout-payment">
+                                <ul class=" payment_methods liststyle--none ">
+
+                                    <li class="payment_method payment_method_ebanks">
+
+
+                                        <input id="payment_method_ebanks" type="radio" class="uk-radio input-radio"
+                                               name="payment_method" value="ebanks" checked="checked">
+
+                                        <label for="payment_method_ebanks">Direct bank transfer </label>
+                                        <div class="payment_box payment_method_banks">
+                                            <p>Make your payment directly into our bank account. Please use your Order
+                                                ID as the payment reference.
+                                                Your order won’t be shipped until the funds have cleared in our account.
+                                            </p>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="optionsRadios" id="optionsRadios1"
+                                                           value="option1" checked>
+                                                    <figure class="payment-method__logo-box">
+                                                        <img src="http://1.bp.blogspot.com/-cOpncwOZ2sM/VdbAtf3pxlI/AAAAAAAAAKE/FX2nWmG1ZWo/s1600/esewa.png"
+                                                             alt="">
+                                                    </figure>
+
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="optionsRadios" id="optionsRadios2"
+                                                           value="option2">
+                                                    <figure class="payment-method__logo-box">
+                                                        <img src="https://cdn-images-1.medium.com/max/1006/1*xqUNa2hUbiis04Z2XTr4Jw.png"
+                                                             alt="">
+                                                    </figure>
+
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="payment_method payment_method_cod">
+                                        <input id="payment_method_cod" type="radio" class="uk-radio input-radio"
+                                               name="payment_method" value="cod">
+
+                                        <label for="payment_method_cod">Cash on delivery </label>
+                                        <div class="payment_box payment_method_cod" style="display:none;">
+                                            <p>Pay with cash upon delivery.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div>
+                            <div class="confirm-order__container box-shadow">
+                                <h4 style="background: #f1f1f1;padding: 15px;color: black;margin: 0;">Confirm order</h4>
+                                <div class="panel panel-default no-border-shadow">
+                                    <div>
+                                        <div class="panel-body">
+                                            <div class="table-responsive">
+                                                <table class="table table-bordered table-hover">
+                                                    <thead>
+                                                    <tr class="warning">
+                                                        <td class="text-left">Product Name</td>
+                                                        <td class="text-left">Model</td>
+                                                        <td class="text-right">Quantity</td>
+                                                        <td class="text-right">Unit Price</td>
+                                                        <td class="text-right">Total</td>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="text-left"><a href="">Spring Hip Hop</a>
+                                                        </td>
+                                                        <td class="text-left">Product 14</td>
+                                                        <td class="text-right">2</td>
+                                                        <td class="text-right">$26.00</td>
+                                                        <td class="text-right">$52.00</td>
+                                                    </tr>
+                                                    </tbody>
+                                                    <tfoot>
+                                                    <tr>
+                                                        <td colspan="4" class="text-right"><strong>Flat Shipping
+                                                                Rate:</strong></td>
+                                                        <td class="text-right">$5.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4" class="text-right"><strong>VAT (20%):</strong>
+                                                        </td>
+                                                        <td class="text-right">$9.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4" class="text-right"><strong>Sub-Total:</strong>
+                                                        </td>
+                                                        <td class="text-right">$40.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4" class="text-right"><strong>Total:</strong></td>
+                                                        <td class="text-right">$60.00</td>
+                                                    </tr>
+                                                    </tfoot>
+                                                </table>
+                                            </div>
+                                            <p class="terms-and-conditions">
+                                                <label class="form__label-for-checkbox">
+
+                                                    <input type="checkbox" class="uk-checkbox input-checkbox"
+                                                           name="terms"
+                                                           id="terms">
+                                                    <span>I’ve read and accept the <a href="" target="_blank"
+                                                                                      class="terms-and-conditions-link">terms &amp; conditions</a></span>
+                                                    <span class="required">*</span>
+                                                </label>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <input type="button" value="Confirm Order" class="uk-button next submit">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="">
+                <div class="jumbotron text-center box-shadow">
+                    <h1 class="display-3">Thank You!</h1>
+                    <p class=""><strong>Please check your email</strong> for further instructions on how to complete
+                        your account setup.</p>
+                    <hr>
+                    <p>
+                        Having trouble? <a href="">Contact us</a>
+                    </p>
+                    <p class="">
+                        <a class="uk-button" href="javascript:void(0)" role="button">Continue to homepage</a>
+                    </p>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</section>
+
+
