@@ -95,18 +95,18 @@ aside {
   }
 }
 
-.price-range {
-  li a {
-    font-size: 12px;
-    font-weight: 500;
-    font-family: $font;
-    color: $primary-color;
-  }
-
-  li a:hover {
-    color: $secondary-color;
-  }
-}
+//.price-range {
+//  li a {
+//    font-size: 12px;
+//    font-weight: 500;
+//    font-family: $font;
+//    color: $primary-color;
+//  }
+//
+//  li a:hover {
+//    color: $secondary-color;
+//  }
+//}
 
 .price-select-rangs {
   margin-top: 10px;
@@ -209,10 +209,7 @@ aside {
 
 }
 
-.brands {
-  //border-bottom: 1px solid #eee;
 
-}
 
 .result-wrapper {
   padding: 20px 20px;
@@ -306,7 +303,7 @@ aside {
 //    }
 //}
 .product-item {
-  height: 430px;
+  //height: 430px;
   margin-bottom: 20px;
   border: solid 1px #EEE;
   box-shadow: 0 0 3px #f6f6f6;
@@ -327,4 +324,59 @@ aside {
 .products-cards {
   width: 100%;
 
+}
+
+
+
+$sidebar-width: 350px;
+
+//Make the whole thing narrower
+.ui-slider {
+  font-size: 0.6em;
+  width: calc(100% - 2.4em);
+  margin-left: 1.2em;
+  //Slider-handle gold, square and bigger
+  .ui-slider-handle {
+    background-color: $primary-color;
+    background-blend-mode: multiply;
+    font-size: 2em;
+    margin-top: -3px;
+    border-radius: 1px;
+    border-color: #eac127;
+  }
+  /*Slider-range darker*/
+  .ui-slider-range {
+    background-color: whitesmoke;
+    background-blend-mode: multiply;
+  }
+}
+
+
+
+  .price-filters{
+    margin-top: 20px;
+    * {
+      font-size: 0.8em;
+      padding: 0.4em 0.3em;
+    }
+    input {
+      border: 1px solid lightgray;
+      padding-left: 1em;
+      text-align: center;
+      width: 49%;
+    }
+    label {
+      position: absolute;
+    }
+  }
+
+
+
+
+span.ui-slider-handle.ui-state-default.ui-corner-all:first-of-type {
+  border-radius: 50%;
+}
+
+span.ui-slider-handle.ui-state-default.ui-corner-all:last-of-type {
+  border-radius: 50%;
 }

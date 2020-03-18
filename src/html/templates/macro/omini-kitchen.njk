@@ -60,24 +60,33 @@
                         <div class="categorie">
                             <h1>Prices</h1>
                         </div>
-                        <div class="price-ranges">
-                            <ul class="price-range">
-                                <li><a href="">Rs.11,999-13,500</a></li>
-                                <li><a href="">Rs.13,500-15,000</a></li>
-                                <li><a href="">Rs.15,000-16,500</a></li>
-                                <li><a href="">Rs.16,500-18,000</a></li>
-                                <li><a href="">Rs.18,000-19,900</a></li>
-                                <li><a href="">Rs.19,900-21,800</a></li>
-                                <li><a href="">Rs.21,800</a></li>
-                            </ul>
-                        </div>
-                        <form class="price-select-rangs">
-                            <lable class="price-lable">Rs</lable>
-                            <input type="number" class="ais-price-ranges--input" value="10">
-                            <lable class="price-lable"> to Rs</lable>
-                            <input type="number" class="ais-price-ranges--input" value="10">
-                            <button class="price-ranges-button" type="submit">Go</button>
-                        </form>
+{#                        <div class="price-ranges">#}
+{#                            <ul class="price-range">#}
+{#                                <li><a href="">Rs.11,999-13,500</a></li>#}
+{#                                <li><a href="">Rs.13,500-15,000</a></li>#}
+{#                                <li><a href="">Rs.15,000-16,500</a></li>#}
+{#                                <li><a href="">Rs.16,500-18,000</a></li>#}
+{#                                <li><a href="">Rs.18,000-19,900</a></li>#}
+{#                                <li><a href="">Rs.19,900-21,800</a></li>#}
+{#                                <li><a href="">Rs.21,800</a></li>#}
+{#                            </ul>#}
+{#                        </div>#}
+{#                        <form class="price-select-rangs">#}
+{#                            <lable class="price-lable">Rs</lable>#}
+{#                            <input type="number" class="ais-price-ranges--input" value="10">#}
+{#                            <lable class="price-lable"> to Rs</lable>#}
+{#                            <input type="number" class="ais-price-ranges--input" value="10">#}
+{#                            <button class="price-ranges-button" type="submit">Go</button>#}
+{#                        </form>#}
+
+                        <div id="slider-range" data-price-min="230" data-price-max="1233"></div>
+                        <p class="price-filters">
+                            <label for="price-filter-min">Rs</label>
+                            <input type="number" id="price-filter-min" placeholder=230
+                                   aria-label="Minimum price for filtering products">
+                            <label for="price-filter-max" aria-label="Maximum price for filtering products">Rs</label>
+                            <input type="number" id="price-filter-max" placeholder=1233>
+                        </p>
                     </div>
                     <div class="fact-wrapper">
                         <div class="categories">
@@ -145,7 +154,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-3 col-ms-6">
-                        <div class=" product-item active" style="width: 250px;"><a href="demo.html">
+                        <div class=" product-item active" ><a href="demo.html">
                                 <div class="products-card products-cards">
                                     <img src="images/SD.jpg" alt="" class="products-card-img">
 
@@ -168,7 +177,7 @@
                             </a></div>
                     </div>
                     <div class="col-md-3 col-ms-6">
-                        <div class=" product-item active" style="width: 250px;"><a href="demo.html">
+                        <div class=" product-item active" ><a href="demo.html">
                                 <div class="products-card products-cards">
                                     <img src="images/SD1.jpg" alt="" class="products-card-img">
 
@@ -193,7 +202,7 @@
                     <div class="col-md-3 col-ms-6">
 
 
-                        <div class=" product-item active" style="width: 250px;"><a href="demo.html">
+                        <div class=" product-item active" ><a href="demo.html">
                                 <div class="products-card products-cards">
                                     <img src="images/SD2.jpg" alt="" class="products-card-img">
 
@@ -215,7 +224,7 @@
                             </a></div>
                     </div>
                     <div class="col-md-3 col-ms-6">
-                        <div class=" product-item active" style="width: 250px;"><a href="demo.html">
+                        <div class=" product-item active" ><a href="demo.html">
                                 <div class="products-card products-cards">
                                     <img src="images/SD3.jpg" alt="" class="products-card-img">
 
